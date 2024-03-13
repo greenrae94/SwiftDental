@@ -4,7 +4,7 @@ This repository contains an application that converts numbers (integers and Roma
 
 ## Installation
 
-To run this repository, you will need to ensure that you have PHP 8 and Composer installed. Your PHP installation must also be configured to allow the use of `NumberFormatter`. Follow the steps below:
+To run this repository, you will need to ensure that you have PHP 8 and Composer installed. Your PHP installation must also be configured to allow the use of `NumberFormatter`. Beofre making any changes to your php configuration I recommend making a backup file. Follow the steps below to enable `NumberFormatter`:
 
 1. Enable the `intl` extension in your PHP ini file. Locate the following line in your PHP ini file:
 - `;extension=intl`
